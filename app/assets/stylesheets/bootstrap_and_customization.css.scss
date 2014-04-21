@@ -1,6 +1,21 @@
-$body-bg: #2ecc71;
-$navbar-inverse-bg: #1abc9c;
+@import url(http://fonts.googleapis.com/css?family=Aclonica);
+
+$body-bg: 									#2ecc71;
+$font-family:               'Aclonica', sans-serif;
+$navbar-height:    					45px;
+$navbar-inverse-bg:  			 	#1abc9c;
 $navbar-inverse-link-color: white;
-$brand-primary: #16a085;
-$jumbotron-bg: #ecf0f1;
+$brand-primary: 						#16a085;
+$jumbotron-bg: 							#ecf0f1;
+
 @import 'bootstrap';
+
+.center{
+	text-align: center;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+
