@@ -12,7 +12,7 @@ gem 'bootstrap-sass'
 gem 'devise','~> 3.2.4' 
 
 group :development, :test do
-	gem 'sqlite3'
+	gem 'sqlite3', '~> 1.3.9'
 end
 
 group :production do
