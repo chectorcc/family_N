@@ -12,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise','~> 3.2.4'
+gem 'rake', '=>10.3.1'
 
 
 group :development, :test do
