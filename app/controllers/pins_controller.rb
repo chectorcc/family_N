@@ -6,6 +6,7 @@ class PinsController < ApplicationController
   end
 
   def show
+    @pin = Pin.find params[:id] #-> or Pin.first
   end
 
   def new
