@@ -12,7 +12,7 @@
   </thead>
 
   <tbody>
-    <% @pin.each do |pin| %>
+    <% @pins.each do |pin| %>
       <tr>
         <td><%= pin.description %></td>
         <td><%= pin.user.email if pin.user %></td>
